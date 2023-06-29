@@ -4,7 +4,7 @@
     Random rnd = new Random();
     for (int i = 0; i < result.Length; i++)
     {
-        result[i] = rnd.Next(minValue, maxValue+1);
+        result[i] = rnd.Next(minValue, maxValue + 1);
     }
     return result;
 }
